@@ -1,0 +1,33 @@
+
+body {
+font-family: Arial, sans-serif;
+}
+form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+input {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+button {
+    padding: 8px 12px;
+    background-color: #451781;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+}
+.message {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.success {
+    background-color: #28a745;
+}
+.error {
+    background-color: #dc3545;
+}
